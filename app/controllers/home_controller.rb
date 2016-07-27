@@ -1,6 +1,6 @@
 class HomeController < ShopifyApp::AuthenticatedController
   def index
-    redirect_to 'https://64b09d85.ngrok.io/'
+    redirect_to 'http://localhost:8080'
     # @products = ShopifyAPI::Product.find(:all, :params => {:limit => 10})
   end
 end
