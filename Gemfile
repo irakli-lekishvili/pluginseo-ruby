@@ -12,10 +12,16 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'shopify_app'
+gem 'dotenv-rails'
+
+group :development do
+  gem 'better_errors'
+end
 
 group :development, :test do
-  gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'pry-byebug', '~> 3.2.0'
+  gem 'pry-rails', '~> 0.3.4'
 end
 
